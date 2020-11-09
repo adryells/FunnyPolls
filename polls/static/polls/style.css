@@ -1,0 +1,40 @@
+body {
+    background-image: url("images/background.gif");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    width: 50%;
+    height: 50%;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+li{
+    margin-top: 3%;
+    list-style: none;
+    flex-basis: 33%;
+    padding: 5%;
+    background-color: gray;
+    border-radius: 20px;
+}
+li:hover{
+    opacity:0.5;
+}
+li a {
+    color: rebeccapurple;
+}
+
+li a:hover {
+    color: red;
+}
